@@ -1,0 +1,90 @@
+body{
+	background-image: url('../images/2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background-color: #06B0BD;
+	height: 10%;
+	width: 100%;
+	line-height: 65px;
+	/*border: 1px solid black;*/
+	color: White; 
+	font-weight: bold;
+	font-size: 20px;
+	/*font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;*/
+}
+
+#header h2{
+	margin-left: 10px;
+}
+
+#login_box {
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+	margin-top: 40px;
+	margin-left: 400px;
+	float: left;
+	border: 3px solid #06B0BD;
+	background-color: transparent;
+	box-shadow: 15px 15px 15px #0B565C;
+}
+
+input[type=text], input[type=password] { 
+	width: 80%; 
+	padding: 12px 20px; 
+	margin-top: 5px; 
+	margin-left: 40px; 
+	margin-bottom: 5px; 
+	box-sizing: border-box;
+	border: 2px solid Lavender; 
+	border-radius: 4px; 
+}
+input[type=submit]{ 
+	width: 40%;
+	background-color: #00A2AD; 
+	border: 2px; 
+	color: white; 
+	padding: 16px 32px; 
+	font-size: 15px;
+	text-decoration: none; 
+	margin-top:10px; 
+	margin-left: 40px; 
+	cursor: pointer;
+}
+ tab1 { 
+ 	margin-left: 20px;
+ 	color: Green; 
+ }
+
+ tab2{
+ 	margin-left: 40px;
+ }
+  #login_box a{
+ 	text-decoration: none;
+ 	color: #073954;
+ 	font-size: 18px;
+ /*	text-shadow: 2px 2px 4px #888C8C;*/
+
+ }
+ #login_box h1{
+	text-align: center;
+	color: #00A2AD;
+	text-shadow: 2px 2px 4px black;
+}
+#login_box p{
+	text-align: center;
+	color: #00A2AD;
+	margin-top: 0px;
+
+}

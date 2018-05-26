@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#home_header {
+	background-color: #06B0BD;
+	height: 30px;
+	width: 100%;
+	line-height: 30px;
+	/*border: 1px solid black;*/
+	color: White; 
+	
+	font-size: 13px;
+	/*font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;*/
+}
+
+#header h2{
+	margin-left: 10px;
+}
+
+nav {
+	height: 60px;
+	width: 99.89%;
+	background-color: #06B0BD;
+	border: 1px solid Lavender;
+}
+nav li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+	/*background-color: green;*/
+	line-height: 60px;
+	width: 5%;
+	height: 60px;
+
+}
+nav li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: White;
+
+
+}
+
+nav a:hover, nav a.active{
+	color: green;
+	font-size: 22px;
+	font-weight: bold;
+
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+#profile {
+	height: 400px;
+	width: 80%;
+	float: left;
+	background-color: white;
+	margin: 20px 0 0 140px;
+}
+
+.photo{
+	height: 200px;
+	width: 200px;
+	margin: 10px 0 0 10px;
+	background-color: grey;
+	float: left;
+	box-shadow: 8px 8px 8px #06B0BD;
+	opacity: 20%;
+}
+
+.detail {
+	height: 400px;
+	width: 110px;
+	margin: 10px 0 0 50px;
+	background-color: ;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+
+}
+
+.info {
+	height: 400px;
+	width: 300px;
+	margin: 10px 0 0 5px;
+	background-color: ;
+	float: left;
+	font-size: 25px;
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+
+}
+tab {
+	margin-left: 80px;
+}
